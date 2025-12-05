@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Links you love</title>
+    </head>
+    <body>
+        
+        <h1>Links que amo</h1>
+        
+        <ul>
+            <li><a href="https://fridaynightfunking.fandom.com/wiki/Lord_X_Wrath/Characters">Lord X Wrath</a></li>
+            <li><a href="https://static.wikia.nocookie.net/fridaynightfunking/images/7/7b/Super_High_Effort_Too_Slow_Awemix_Thumbnail.jpeg/revision/latest/scale-to-width-down/1000?cb=20250915060416">You are too slow</a></li>
+            <li><a href="https://smlwiki.com/">SML Wiki</a></li>
+        </ul>
+
+       <a href= "https://fridaynightfunking.fandom.com/wiki/Crazy_Girlfriend"><img src="https://www.kasandbox.org/programming-images/cute/Heart.png"></a>
+        
+    </body>
+</html>
