@@ -1,1 +1,92 @@
 
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Empresa de viajes Daviaje....</title>
+  <meta name="description"
+    content="contenido.">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- david orgeira -->
+  <style>
+
+body {
+    padding: 0 10px;
+    margin: 50px auto;
+    max-width: 650px;
+    background-color: var(--bg-dark);
+    color: var(--fg-light);
+    font-family:
+        "SF Mono", "SFMono-Regular", "Liberation Mono", monospace;
+
+    font-size: 0.9rem;
+    line-height: 1.4;
+   
+}
+
+#maincontent {
+    max-width: 42em;
+    margin: 15 auto;
+
+}
+
+a {
+    color: var(--matrix-green);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+.hawwai {
+                width: 240px;
+}
+.volcan {
+                width: 240px;
+            }
+             .waterfalls {
+                width: 240px;
+            }
+            .Newgrange  {
+                width: 240px;
+            }
+            .textochiquito {
+                font-size:12;
+            }
+            
+  </style>
+
+</head>
+
+<body>
+  <div id="maincontent" style="margin-top:70px">
+    <h2 style="margin-bottom:2px;">Empresa de viajes Daviajes.</h2>
+    <br> <em class="simi"> Mejor que la competencia, y mas barato! </em> <br>
+ <br>  <img class="hawwai" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png"> <br> <br> <em class="textochiquito"> <b> Imagen por el Khan Academy</b></em> <br> <br>
+          <em class="text1"> Por aqui tenemos la ya muy conocida Hawaii, lugar conocido con ganas, pero no por ello una mala decision. <br> <b> Magnificas playas, magnifico entorno y magnifico aire. Todo por unicamente 19.19 euros </b></em> 
+          <br>
+          <br>
+    <img class="volcan" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/lava.png">
+    <br> <br> <em class="textochiquito"> <b> Imagen por el Khan Academy</b></em> <br>
+    <br> <br>
+    <em class="text2"> <b> Visite el teide en las maravillosa isla de tenerife, disfrute de los rios de lava y la piedra volcanica. </b> Todo unicamente por 20 euros</em>
+    <br> <br>
+    <img class="waterfalls" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/waterfall_niagara-falls.png"> <br> <br> <em class="textochiquito"> <b> Imagen por el Khan Academy</b></em> <br> <br>
+    
+    <em class="text3"> Por supuesto, no pueden faltar <b> las ya muy queridas y conocidas cataratas del niagara, una de las fronteras naturales mas importantes del planeta. </b> <br> Visite estas maravillosas cascadas por 20.89 Euros</em>
+    <br> <br>
+    <img class="Newgrange" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Newgrange.JPG">
+    <br>
+    <em class="textochiquito"> <b> Imagen por el usuario de Wikipedia Shira. Licencia CC BY 2.5 pl </b></em>
+    <br>
+    <em class="text4"> <b> En el corazon de la bella irlanda, se encuentra el Newgrange, pasaje funerario y el yacimiento arqueologico mas importante de Irlanda, un lugar que se debe visitar </b> <br> Lo mandaremos alli por 44.39.</em>
+    
+      <br />
+
+  </div>
+</body>
+
+</html>
