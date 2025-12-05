@@ -1,0 +1,24 @@
+var xPositions = [200, 10, 25, 75, 300,260,350];
+var yPositions = [0, 0, 0, 0, 0,0, 0];
+var colors=[color(52, 247, 8), color(255, 8, 8), color(255, 255, 255), color(28, 19, 19), color(0, 255, 247), color(222, 181, 47), color(179, 0, 255)];
+draw = function() {
+    background(204, 247, 255);
+
+    noStroke();
+    fill(0, 200, 255);
+//caer
+    for (var i = 0; i < xPositions.length; i++) {
+        noStroke();
+        fill(colors[i]);
+        ellipse(xPositions[i], yPositions[i], 10, 10);
+        yPositions[i] += 5;
+        //loop
+        if (yPositions[i] >400) {
+            yPositions[i] =random(0,400);
+        }
+    }
+    //nube
+    fill(255, 255, 255);
+    ellipse(206, 54, 750, 129);
+   
+};
