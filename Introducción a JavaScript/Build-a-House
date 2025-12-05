@@ -1,0 +1,42 @@
+background(219, 255, 255);
+//tejado
+fill(174, 180, 214);
+triangle(200, 28, 350, 150, 50, 150);
+//cuadrado central
+fill(255, 255, 255);
+rect(60, 150, 280, 207);
+//puerta
+fill(120, 80, 19);
+rect(180, 280, 40, 77);
+//ventana
+fill(255, 247, 222);
+rect(109,195,32,36);
+
+for (var window= 6; window < 12; window++) {
+    for (var windowPlace= 3; windowPlace <4; windowPlace++) {
+        rect (window*23, windowPlace*65, 32,36);
+    }
+}
+//hierba
+fill (127, 214, 73);
+rect(-1,358,401,42);
+//camino
+fill(87, 87, 86);
+rect(181, 358, 39, 41);
+//flores
+fill(125, 209, 107);
+ellipse(23, 348,9,89);
+fill(255, 0, 0);
+ellipse (23, 294,29,34);
+fill(125, 209, 107);
+ellipse(364, 348,9,89);
+fill(255, 0, 0);
+ellipse (365, 294,29,34);
+//mujer
+image(getImage("cute/CharacterHornGirl"), 63, 247);
+//El Sun
+fill (255, 255, 0);
+ellipse (80, 64, 100, 100);
+//brillo de sol
+fill(255, 255, 255);
+ellipse(98, 42, 39, 33);
