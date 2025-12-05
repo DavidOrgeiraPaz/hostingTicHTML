@@ -1,0 +1,57 @@
+background(89, 216, 255);
+
+var centerX = 200;
+var centerY = 100;
+var bodyLength = 118;
+var bodyHeight = 74;
+var bodyColor = color(162, 0, 255);
+var drawFish = function(centerX, centerY, bodyLength, bodyHeight, bodyColor, tailWidth, tailHeight) 
+{
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+}; 
+//CC 
+drawFish(100, 100, 30,20,color(153, 105, 94));
+//Elizabeth
+drawFish(192, 161, 51,21,color(22, 204, 116));
+//Michael
+drawFish(280, 344, 51,21,color(86, 108, 199));
+//William
+drawFish(298, 74, 69, 60,color(0, 247, 255));
+//La piña debajo del mar
+fill(224, 207, 16);
+ellipse(96, 339, 85,184);
+fill(139, 245, 0);
+rotate(-1);
+ellipse(78, 217, 19, 89);
+fill(139, 245, 0);
+rotate(-1);
+ellipse(98, 217, 19, 89);
+fill(97, 95, 95);
+ellipse(95,308,27,31);
+fill(97, 95, 95);
+ellipse(81,390,48,86);
+//las piedras
+fill(97, 95, 95);
+ellipse(37,5,21,26);
+fill(97, 95, 95);
+ellipse(68,7,21,26);
+fill(97, 95, 95);
+ellipse(103,10,21,26);
+fill(97, 95, 95);
+ellipse(132,12,21,26);
+fill(97, 95, 95);
+ellipse(162,13,21,26);
+fill(97, 95, 95);
+ellipse(191,14,21,26);
