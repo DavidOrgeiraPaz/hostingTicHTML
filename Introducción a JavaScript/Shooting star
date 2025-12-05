@@ -1,0 +1,18 @@
+var xPos = 50;
+var yPos = 50;
+var xPos2= 350;
+var yPos2= 50;
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 10, 10);
+    xPos+=5;
+    yPos+=5;
+    ellipse(xPos2, yPos2, 10, 10);
+    xPos2-=2;
+    yPos2+=2;
+    fill(192, 192, 192);
+    ellipse(192, 29, 83, 86);
+    fill(35, 130, 83);
+    ellipse(58,385,1100,39);
+};
